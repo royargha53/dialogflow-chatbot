@@ -31,7 +31,7 @@ if($method == 'POST'){
 	$response->speech = "";
 	$response->displayText = "";
 	$response->source = "webhook";
-	echo json_encode($response);
+	return json_encode($response);
 }
 else
 {
