@@ -32,6 +32,7 @@ if($method == 'POST'){
 	$response->displayText = "$speech";
 	$response->source = "webhook";
 	$response->return = "$speech";
+	$response->fulfillmentText = "$speech";
 	echo json_encode($response);
 }
 else
