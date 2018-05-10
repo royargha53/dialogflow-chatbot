@@ -37,7 +37,9 @@ $speech = "Ok";
 }
 else
 {
-	echo "Method not allowed here";
+	$speech = "Ok";
+	$response->speech = "$speech";
+	echo json_encode($response);
 }
 
 ?>
