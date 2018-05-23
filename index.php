@@ -17,7 +17,10 @@ if($method == 'POST'){
  3.Get the meter details
      from CIMS using meter and send out mail to Tim.
  4.Once Tim flip it to
-     standard meter Create HPSM ticket.";
+     standard meter Create HPSM ticket.
+     
+     Document URL: https://www.spreadsheet.com/
+     ";
 			break;
 
 		case 'PECO Missing Meter Number':
