@@ -10,18 +10,18 @@ if($method == 'POST'){
 
 	switch ($text) {
 		case 'ComEd Missing Meter Numbe':
-			$speech = "Get the Missing Meter
+			$speech = "1.Get the Missing Meter
      Numbers from DMD report.
- Validate and filter out
+ 2.Validate and filter out
      the meters which are not exist in MDM.
- Get the meter details
+ 3.Get the meter details
      from CIMS using meter and send out mail to Tim.
- Once Tim flip it to
+ 4.Once Tim flip it to
      standard meter Create HPSM ticket.";
 			break;
 
-		case 'bye':
-			$speech = "Bye, good night";
+		case 'PECO Missing Meter Number':
+			$speech = "PECO missing meter number details";
 			break;
 
 		case 'anything':
