@@ -9,8 +9,15 @@ if($method == 'POST'){
 	$text = $json->result->parameters->text;
 
 	switch ($text) {
-		case 'hi':
-			$speech = "Hi, Nice to meet you";
+		case 'ComEd Missing Meter Numbe':
+			$speech = "Get the Missing Meter
+     Numbers from DMD report.
+ Validate and filter out
+     the meters which are not exist in MDM.
+ Get the meter details
+     from CIMS using meter and send out mail to Tim.
+ Once Tim flip it to
+     standard meter Create HPSM ticket.";
 			break;
 
 		case 'bye':
