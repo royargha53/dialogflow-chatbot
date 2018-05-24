@@ -8,7 +8,7 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 	$text = $json->result->parameters->text;
 
-	switch ($input.text) {
+	switch ($text) {
 		case 'ComEd Missing Meter Numbe':
 			$speech = "1.Get the Missing Meter Numbers from DMD report.
                                    2.Validate and filter out the meters which are not exist in MDM.
