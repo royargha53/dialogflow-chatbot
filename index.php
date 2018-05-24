@@ -11,11 +11,11 @@ if($method == 'POST'){
 	switch ($text) {
 		case 'ComEd Missing Meter Numbe':
 			$speech = "1.Get the Missing Meter Numbers from DMD report.
-                                   2.Validate and filter out the meters which are not exist in MDM.
-                                   3.Get the meter details from CIMS using meter and send out mail to Tim.
-                                   4.Once Tim flip it to standard meter, Create HPSM ticket.
+                              2.Validate and filter out the meters which are not exist in MDM.
+                              3.Get the meter details from CIMS using meter and send out mail to Tim.
+                              4.Once Tim flip it to standard meter, Create HPSM ticket.
      
-                                   Document URL: https://www.spreadsheet.com/";
+                              Document URL: https://www.spreadsheet.com/";
 			break;
 
 		case 'PECO Missing Meter Number':
